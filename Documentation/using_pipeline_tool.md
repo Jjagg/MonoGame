@@ -1,10 +1,10 @@
-The [Pipeline Tool](pipeline.md) is used to organize and build content for use with MonoGame. It is installed as part of the MonoGame SDK Installer or can be built [directly from source](https://github.com/mono/MonoGame/tree/develop/Tools/Pipeline) if needed.
+The [MGCB Editor](pipeline.md) is used to organize and build content for use with MonoGame. It is installed as part of the MonoGame SDK Installer or can be built [directly from source](https://github.com/mono/MonoGame/tree/develop/Tools/MonoGame.Content.Builder.Editor) if needed.
 
 ## Create A Project
 
 To start a new project just select "New..." from the "File" menu.  This will give you a new empty project to add content to.
 
-If you are starting from an existing XNA project, the Pipeline Tool supports importing your existing .contentproj.  Again you can access this from the the "File" menu:
+If you are starting from an existing XNA project, MGCB Editor supports importing your existing .contentproj.  Again you can access this from the the "File" menu:
 
 <p align="center">
 <img src="images/pipeline_import.png"/>
@@ -22,7 +22,7 @@ You can edit the content project settings directly from the property grid editor
 
 This is where you setup the folders for output, the platform to target, the assembly references for custom processors, etc.
 
-Note that currently the Pipeline tool is not setup to support multiple target platforms.  This means you may need to manage multiple content projects or manually change the target platform between builds.  We are working on adding functionality to support multiple platforms and configurations within a single project.
+Note that currently MGCB Editor is not setup to support multiple target platforms.  This means you may need to manage multiple content projects or manually change the target platform between builds.  We are working on adding functionality to support multiple platforms and configurations within a single project.
 
 
 ## Adding Content Items
@@ -54,7 +54,7 @@ After you have done these fixes you should be able to add these new processors t
 
 ## Building Content
 
-The Pipeline Tool has 3 actions related to building content: Build, Rebuild and Clean. Build will build all content that needs to be built and put the xnb's in the output directory (bin by default). Content will be skipped if it hasn't changed since the last build. The time source content was last edited is saved in the intermediate directory (obj by default) to determine if content changed since the last build. Clean will empty the output and intermediate directories. Rebuild will first Clean and then Build.
+MGCB Editor has 3 actions related to building content: Build, Rebuild and Clean. Build will build all content that needs to be built and put the xnb's in the output directory (bin by default). Content will be skipped if it hasn't changed since the last build. The time source content was last edited is saved in the intermediate directory (obj by default) to determine if content changed since the last build. Clean will empty the output and intermediate directories. Rebuild will first Clean and then Build.
 
 ## Linking Content To Your Game
 
@@ -62,11 +62,11 @@ Once you have built your content you have a few different ways to add the xnb's 
 
 ### MonoGameContentReference
 
-The simplest method is to setup your game project from one of the templates that come with the SDK. When you create a new project it will include a Content.mgcb file with its Build Action set to MonoGameContentReference. This build action is defined in the .targets file [here](https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework.Content.Pipeline/MonoGame.Content.Builder.targets). MonoGameContentReference is set up so that when the project is built, the mgcb will build any new/modified content and copy the resulting xnb's to the project output directory so they can be used in the project. Note that this way you don't even have to manually build the content with the Pipeline Tool. Just add your content to the .mgcb with the Pipeline Tool and the rest will happen when you build your project. The content files do not need to be added to your project.
+The simplest method is to setup your game project from one of the templates that come with the SDK. When you create a new project it will include a Content.mgcb file with its Build Action set to MonoGameContentReference. This build action is defined in the .targets file [here](https://github.com/MonoGame/MonoGame/blob/develop/MonoGame.Framework.Content.Pipeline/MonoGame.Content.Builder.targets). MonoGameContentReference is set up so that when the project is built, the mgcb will build any new/modified content and copy the resulting xnb's to the project output directory so they can be used in the project. Note that this way you don't even have to manually build the content with MGCB Editor. Just add your content to the .mgcb with MGCB Editor and the rest will happen when you build your project. The content files do not need to be added to your project.
 
 ### Manual Copy
 
-If you don't want to use the automated process, you can build the content project with the Pipeline Tool and copy the xnb's to the output folder of your project manually.
+If you don't want to use the automated process, you can build the content project with MGCB Editor and copy the xnb's to the output folder of your project manually.
 
 
 ### Add As Content
@@ -107,4 +107,4 @@ Then any files you put in a Content folder within your game project will automat
 
 ## Reporting Bugs
 
-If you run into any problems with MGCB or the Pipeline Tool, please ask for help on the [community site](http://community.monogame.net/) or submit a [bug report on GitHub](https://github.com/MonoGame/MonoGame/issues).
+If you run into any problems with MGCB or MGCB Editor, please ask for help on the [community site](http://community.monogame.net/) or submit a [bug report on GitHub](https://github.com/MonoGame/MonoGame/issues).
