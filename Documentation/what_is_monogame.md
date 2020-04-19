@@ -1,25 +1,27 @@
-MonoGame is an Open Source implementation of the Microsoft XNA 4 Framework. Our goal is to allow people to make great games using a simple API.
+MonoGame is an Open Source implementation of the discontinued [Microsoft XNA 4 Framework]([Microsoft XNA - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_XNA). Its goal is carry over the philosophy of XNA while expanding the framework to new platforms and evolutions. Our goal is to allow people to make great games using a simple API.
+
+
 The currently supported platforms are as follows.
 
- * Desktop PCs
-   * Windows 10 Store Apps (UWP)
-   * Windows Win32 (OpenGL & DirectX)
-   * Linux (OpenGL)
-   * Mac OS X (OpenGL)
- * Mobile/Tablet Devices
-   * Android (OpenGL)
-   * iPhone/iPad (OpenGL)
-   * Windows Phone 10
-* Television
-   * tvOS
+* Desktop PCs
+  * Windows 10 Store Apps (UWP)
+  * Windows (OpenGL or DirectX)
+  * Linux (OpenGL)
+  * Mac OS X (OpenGL)
+* Mobile/Tablet Devices
+  * Android (OpenGL)
+  * iOS (OpenGL)
+  * Windows Phone 10 (UWP)
 
-MonoGame also supports a number of Game Consoles. The templates and source for these platforms
-are not publicly availalbe. However they are available to developers registered with the appropriate
-developer programs.  
+Vulkan, DirectX 12, and Metal targets are planned but currently unavailable.
 
- * Consoles (for registered developers)
-   * PlayStation 4 (Sony)
-   * PlayStation Vita (Sony)
-   * Xbox One (both UWP and XDK) (id@xbox)
-   * Nintendo Switch (Nintendo)
- 
+MonoGame also supports a number of game consoles. The templates and source code for these platforms are not publicly availalbe. However they are available to developers registered with the appropriate developer programs.  
+
+* Consoles (for registered developers)
+  * PlayStation 4 (Sony)
+  * PlayStation Vita (Sony)
+  * Xbox One (both UWP and XDK) (ID@xbox)
+  * Nintendo Switch (Nintendo)
+  * Stadia (Google)
+
+To access the MonoGame version of these consoles, please contact your console account manager(s) directly (the MonoGame team can't give you an access without contacting them first).
