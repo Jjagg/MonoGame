@@ -2,7 +2,7 @@ Once your game is ready to be published, it is recommended that you package it p
 
 ## Desktop games
 
-To publish desktop games, it is recommended that you build your project as a self-contained .Net Core app. As such, your game will require absolutely no external dependencies and should run out-of-the-box as-is.
+To publish desktop games, it is recommended that you build your project as a [self-contained](https://docs.microsoft.com/en-us/dotnet/core/deploying/#publish-self-contained) .NET Core app. As such, your game will require absolutely no external dependencies and should run out-of-the-box as-is.
 
 ### Building and packaging for Windows
 
