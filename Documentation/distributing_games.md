@@ -93,7 +93,7 @@ For archiving, we recommend using the .tar.gz format for preserve the execution 
 
 Ready2Run code is of low quality and makes the Just-In-Time compiler (JIT) trigger regularly to promote the code to a higher quality. Whenever the JIT runs, it produces potentially very visible stutters.
 
-Disabling Ready2Run solves this issue (at the cost of a slightly longer startup time, but typically very negligible).
+Disabling ReadyToRun solves this issue (at the cost of a slightly longer startup time, but typically very negligible).
 
 **TieredCompilation**
 
