@@ -7,7 +7,7 @@ The currently supported platforms are as follows.
   * Windows 10 Store Apps (UWP)
   * Windows (OpenGL or DirectX)
   * Linux (OpenGL)
-  * Mac OS X (OpenGL)
+  * macOS (OpenGL)
 * Mobile/Tablet Devices
   * Android (OpenGL)
   * iOS (OpenGL)
