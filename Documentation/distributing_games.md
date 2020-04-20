@@ -87,11 +87,11 @@ For archiving, we recommend using the .tar.gz format for preserve the execution 
 
 .Net Core proposes several parameters when publishing apps that may sound helpful, but have many issues when it comes to games (because they were never meant for games in the first place, but for small lightweight applications).
 
-**Ready2Run**
+**ReadyToRun (R2R)**
 
-You might be tempted to use Ready2Run assemblies for games. We recommended to not using it because it produces a lot a micro stutters throughout games.
+[ReadyToRun](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0#readytorun-images) is advertised as improving application startup time, but slightly increasing binary size. We recommend not using it for games, because it produces micro stutters when your game is running.
 
-This is due to the fact that Ready2Run code is of low quality and makes the Just-In-Time compiler to trigger very regularly to promote the code to a higher quality. Whenever the JIT runs, it produces potentially very visible stutters that players don't like at all.
+Ready2Run code is of low quality and makes the Just-In-Time compiler (JIT) trigger regularly to promote the code to a higher quality. Whenever the JIT runs, it produces potentially very visible stutters.
 
 Disabling Ready2Run solves this issue (at the cost of a slightly longer startup time, but typically very negligible).
 
@@ -118,4 +118,3 @@ Please refer to the Xamarin documentation:
 - [Android]([Publishing an Application - Xamarin | Microsoft Docs](https://docs.microsoft.com/en-us/xamarin/android/deploy-test/publishing/))
 
 - [iOS](https://docs.microsoft.com/en-us/xamarin/ios/deploy-test/app-distribution/app-store-distribution/publishing-to-the-app-store?tabs=windows)
-
