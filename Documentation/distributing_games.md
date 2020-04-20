@@ -79,6 +79,8 @@ The Info.plist file is a standard macOS file containing metadata about your game
 </plist>
 ```
 
+For more information about Info.plist files, see the [documentation](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html).
+
 After completing these steps, your .app folder should appears as an executable application on macOS.
 
 For archiving, we recommend using the .tar.gz format to preserve the execution permissions.
