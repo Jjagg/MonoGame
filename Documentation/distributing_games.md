@@ -1,5 +1,3 @@
-# Distributing games
-
 Once your game is ready to be published, it is recommended that you package it properly for consumption by players.
 
 ## Desktop games
@@ -120,5 +118,4 @@ Please refer to the Xamarin documentation:
 - [Android]([Publishing an Application - Xamarin | Microsoft Docs](https://docs.microsoft.com/en-us/xamarin/android/deploy-test/publishing/))
 
 - [iOS](https://docs.microsoft.com/en-us/xamarin/ios/deploy-test/app-distribution/app-store-distribution/publishing-to-the-app-store?tabs=windows)
-
 
