@@ -24,4 +24,4 @@ MonoGame also supports a number of game consoles. The templates and source code 
   * Nintendo Switch (Nintendo)
   * Stadia (Google)
 
-To access the MonoGame version of these consoles, please contact your console account manager(s) directly (the MonoGame team can't give you an access without contacting them first).
+To access the MonoGame version of these consoles, please contact your console account manager(s) directly (the MonoGame team can't give you access without contacting them first).
