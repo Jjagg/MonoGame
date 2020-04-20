@@ -55,7 +55,7 @@ DesktopGL currently does not have a `VideoPlayer` implementation.
 The WindowsUniversal platform runs on [Universal Windows Platform (UWP)](https://docs.microsoft.com/en-us/windows/uwp/get-started/universal-application-platform-guide).
 WindowsUniversal uses DirectX for graphics, and XAudio for audio just like the WindowsDX platform).
 
-This platform is meant to publish games on the Windows Store, for both Windows and Xbox One (through the [Xbox Live Creators Program | Xbox](https://www.xbox.com/en-US/developers/creators-program)).
+This platform is meant to publish games on the Windows Store, for both Windows and Xbox One (through the [Xbox Live Creators Program](https://www.xbox.com/en-US/developers/creators-program)).
 
 Note that UWP games running on Xbox One get a [restricted access](https://docs.microsoft.com/en-us/windows/uwp/xbox-apps/system-resource-allocation) to the console capabilities. To unlock those restrictions, MonoGame has a dedicated Xbox One platform for registered [ID@Xbox](https://www.xbox.com/en-US/Developers/id) developers targeting the XDK (this platform this private and requires you to contact your ID@Xbox manager).
 
