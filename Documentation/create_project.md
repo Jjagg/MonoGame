@@ -27,7 +27,7 @@ After installation you can run `dotnet --info` in a terminal to make sure the in
 
 MonoGame publishes templates for [dotnet new](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new). To install the C# templates run `dotnet new -i MonoGame.Templates.CSharp`.
 
-You can now create new projects. For that, create a new directory where you want your project source to belong. Then open up a terminal and navigate to directory.
+You can now create new projects. To do that, create a new directory for your project. Then, open a terminal and navigate to your project directory.
 Run `dotnet new <TemplateID> -o <ProjectName>` to create your project, where `<TemplateID>` is a platform identifier, and `<ProjectName>` the name of your project.
 
 For example: `dotnet new mgdesktopgl -o MyGame`.
