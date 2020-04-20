@@ -54,7 +54,7 @@ The Info.plist file is a standard macOS file containing metadata about your game
     <key>CFBundleIconFile</key>
     <string>YourGame</string>
     <key>CFBundleIdentifier</key>
-    <string>com.my-domain.YourGame</string>
+    <string>com.your-domain.YourGame</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
