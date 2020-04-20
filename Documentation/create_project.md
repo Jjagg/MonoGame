@@ -32,4 +32,4 @@ Run `dotnet new <TemplateID> -o <ProjectName>` to create your project, where `<T
 
 For example: `dotnet new mgdesktopgl -o MyGame`.
 
-To know which platform identifier to use for your project, please refer to [Target Platforms](Platforms.md) overview.
+To know which platform identifier to use for your project, please refer to [Target Platforms](Platforms.md).
