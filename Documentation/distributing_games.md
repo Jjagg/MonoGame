@@ -103,7 +103,7 @@ Disabling ReadyToRun solves this issue (at the cost of a slightly longer startup
 
 SingleFilePublish packages your game into a single executable file with all dependencies and content integrated.
 
-While it sounds convenient, be aware that it's not magical and is in fact an hidden self-extracting zip archive. As such, it may make app startup extremly longer if your game is large, and may fail to launch on systems where user permissions don't allow to extract files (or if there is not enough storage space available).
+While it sounds convenient, be aware that it's not magical and is in fact an hidden self-extracting zip archive. As such, it may make app startup take **a lot** longer if your game is large, and may fail to launch on systems where user permissions don't allow to extract files (or if there is not enough storage space available).
 
 We recommend to not use it for a greater compatibility throughout all systems.
 
