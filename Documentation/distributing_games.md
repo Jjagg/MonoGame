@@ -95,6 +95,8 @@ Ready2Run code is of low quality and makes the Just-In-Time compiler (JIT) trigg
 
 Disabling ReadyToRun solves this issue (at the cost of a slightly longer startup time, but typically very negligible).
 
+ReadyToRun is disabled by default. You can configure it by setting the `PublishReadyToRun` property in your csproj file. MonoGame templates for .NET Core projects explicitly set this to `false`.
+
 **TieredCompilation**
 
 [Tiered compilation](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0#tiered-compilation) is a companion system to ReadyToRun and works on the same principle to enhance startup time. We suggest disabling it to avoid any stutter while your game is running.
