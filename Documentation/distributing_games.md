@@ -40,7 +40,7 @@ YourGame.app                    (this is your root folder)
     - Info.plist                (the metadata of your app)
 ```
 
-The Info.plist file is a standard macOS file containing metadata about your game. An example file would go like this:
+The Info.plist file is a standard macOS file containing metadata about your game. Here's an example file with required and recommended values set:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
