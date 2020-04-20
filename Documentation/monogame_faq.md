@@ -1,4 +1,3 @@
-# Frequently asked questions
 
 This page contains a list of frequently asked questions.
 
