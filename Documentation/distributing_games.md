@@ -28,7 +28,7 @@ From the .Net Core CLI:
 
 `dotnet publish -c Release -r osx-x64 /p:PublishReadyToRun=false /p:TieredCompilation=false --self-contained`
 
-It then required to structure the output to be a .app bundle. For that, you will have to create the following file structure:
+We recommend you distribute your game as an [application bundle](https://developer.apple.com/library/archive/documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html). Application bundles are directories with the following file structure:
 
 ```
 YourGame.app                    (this is your root folder)
