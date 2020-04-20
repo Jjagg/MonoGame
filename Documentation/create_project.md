@@ -1,5 +1,3 @@
-# Creating a MonoGame Project
-
 MonoGame distributes templates to set up a new project in two ways:
 
 - For Visual Studio
