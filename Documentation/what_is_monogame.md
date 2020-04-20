@@ -1,4 +1,4 @@
-MonoGame is an Open Source implementation of the discontinued [Microsoft XNA 4 Framework]([Microsoft XNA - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_XNA). Its goal is carry over the philosophy of XNA while expanding the framework to new platforms and evolutions. Our goal is to allow people to make great games using a simple API.
+MonoGame is an Open Source implementation of the discontinued [Microsoft XNA 4 Framework]([Microsoft XNA - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_XNA). Its goal is to carry over the philosophy of XNA while expanding the framework to new platforms and evolutions. We want to help people make great games using a simple API.
 
 
 The currently supported platforms are as follows.
