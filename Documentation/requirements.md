@@ -26,7 +26,8 @@ UWP development is not possible from macOS or Linux.
 
 MonoGame requires either Xamarin.iOS or Xamarin.Android depending on the target.
 
-You can install either of them by selecting the Mobile App development payload when installing Visual Studio 2019 or Visual Studio 2019 for Mac.
+In Visual Studio you can install both by selecting the 'Mobile development with .NET' workload.
+In Visual Studio for Mac you can install the iOS and Android workload separately.
 
 Only Visual Studio 2019 or Visual Studio 2019 for Mac are supported in those contexts.
 
