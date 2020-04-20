@@ -81,7 +81,7 @@ The Info.plist file is a standard macOS file containing metadata about your game
 
 After completing these steps, your .app folder should appears as an executable application on macOS.
 
-For archiving, we recommend using the .tar.gz format for preserve the execution permissions.
+For archiving, we recommend using the .tar.gz format to preserve the execution permissions.
 
 ### Special notes about .Net Core parameters
 
