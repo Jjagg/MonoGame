@@ -114,7 +114,7 @@ We recommend not using it for better compatibility across systems.
 
 ## Windows Store games
 
-Please refer to the [Windows Store documentation]([Publish Windows apps - UWP applications | Microsoft Docs](https://docs.microsoft.com/en-us/windows/uwp/publish/).
+Please refer to the [Windows Store documentation](https://docs.microsoft.com/en-us/windows/uwp/publish/).
 
 ## Mobile games
 
