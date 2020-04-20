@@ -5,7 +5,7 @@ Depending on the [platform](Platforms.md) that you are targeting, MonoGame has d
 
 MonoGame requires a .NET Core SDK (3.1 or up) installation.
 
-You can either install it [independently](https://dotnet.microsoft.com/download/dotnet-core), or by selecting the .Net Core payload when installing Visual Studio 2019 (version 15.4 and up required).
+You can either install it [independently](https://dotnet.microsoft.com/download/dotnet-core), or by selecting the .NET Core payload when installing Visual Studio 2019 (version 15.4 and up required).
 
 When it comes to IDE, Visual Studio 2019, Visual Studio Code, and Visual Studio 2019 for Mac are supported (alternatively, you can work directly from the CLI with your code editor of choice).
 
