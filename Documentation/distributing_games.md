@@ -101,6 +101,9 @@ ReadyToRun is disabled by default. You can configure it by setting the `PublishR
 
 [Tiered compilation](https://docs.microsoft.com/en-us/dotnet/core/whats-new/dotnet-core-3-0#tiered-compilation) is a companion system to ReadyToRun and works on the same principle to enhance startup time. We suggest disabling it to avoid any stutter while your game is running.
 
+Tiered compilation is **enabled by default**. To disable it set the `TieredCompilation` property to `false` in your csproj.
+MonoGame templates for .NET Core projects disable tiered compilation.
+
 **SingleFilePublish**
 
 SingleFilePublish packages your game into a single executable file with all dependencies and content integrated.
