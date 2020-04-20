@@ -3,7 +3,7 @@ Depending on the [platform](Platforms.md) that you are targeting, MonoGame has d
 
 ## For desktop platforms
 
-MonoGame requires a .Net Core SDK (3.1 or up) installation.
+MonoGame requires a .NET Core SDK (3.1 or up) installation.
 
 You can either install it [independently](https://dotnet.microsoft.com/download/dotnet-core), or by selecting the .Net Core payload when installing Visual Studio 2019 (version 15.4 and up required).
 
