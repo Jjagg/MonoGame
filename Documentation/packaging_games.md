@@ -12,6 +12,8 @@ From the .Net Core CLI:
 
 You can then zip the content of the publish folder and distribute the archive as-is.
 
+If you are targeting WindowsDX, note that players will need [the DirectX June 2010 runtime](https://www.microsoft.com/en-us/download/details.aspx?id=8109) to be installed on their machine for audio and gamepads to work properly.
+
 ### Building and packaging for Linux
 
 From the .Net Core CLI:

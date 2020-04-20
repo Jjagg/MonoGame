@@ -43,7 +43,7 @@
     <topic id="Localization" name="Localization" filename="localization.md" />
     </topic>
 
-    <topic id="Distributing games" name="Distributing games" filename="distributing_games.md"/>
+    <topic id="Package games for distribution" name="Package games for distribution" filename="packaging_games.md"/>
 
     <topic id="Tools" name="Tools" filename="tools.md">
         <topic id="2MGFX" name="MGFXC" filename="2mgfx.md"/>
