@@ -18,7 +18,7 @@ From the .Net Core CLI:
 
 `dotnet publish -c Release -r linux-x64 /p:PublishReadyToRun=false /p:TieredCompilation=false --self-contained`
 
-You can then zip the content of the publish folder and distribute the archive as-is.
+You can then archive the content of the publish folder and distribute the archive as-is.
 
 We recommend using the .tar.gz archiving format to preserve the execution permissions.
 
